@@ -8,7 +8,7 @@ st.markdown(
     <style>
     /* Main background color */
     .stApp {
-        background-color: #FFD700;  /* John Deere yellow */
+        background-color: ##367C2B;  /* John Deere green */
     }
 
     /* Sidebar background color */
@@ -31,7 +31,7 @@ st.markdown(
 
     /* Text color */
     .stMarkdown {
-        color: #000000;  /* Black text */
+        color: #D5A32E;  /* Black text */
     }
     </style>
     """,
