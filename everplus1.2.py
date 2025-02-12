@@ -100,7 +100,7 @@ def process_pdf(file):
         st.error(f"An error occurred: {e}")
 
 # Streamlit UI Setup
-st.title("Everextension")
+st.markdown('<h1 class="everextension-yellow">Everextension</h1>', unsafe_allow_html=True)
 st.write("Upload an Invoice")
 
 uploaded_file = st.file_uploader("Choose a PDF file", type=["pdf"])
