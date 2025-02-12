@@ -11,6 +11,11 @@ st.markdown(
         background-color: #367C2B;  /* John Deere green */
     }
 
+    /* Top bar (header) background color */
+    .stHeader {
+        background-color: #367C2B;  /* John Deere green */
+    }
+
     /* Sidebar background color */
     .css-1d391kg {
         background-color: #367C2B;  /* John Deere green */
@@ -19,25 +24,25 @@ st.markdown(
     /* Button styling */
     .stButton>button {
         background-color: #367C2B;  /* John Deere green */
-        color: green;
+        color: white;  /* White text for better contrast */
         border-radius: 5px;
         border: none;
     }
 
     /* Header styling */
     h1 {
-        color: #D5A32E;  /* John Deere green */
+        color: #FFD700;  /* John Deere yellow */
+        font-weight: bold;
     }
 
     /* Text color */
     .stMarkdown {
-        color: #D5A32E;  /* Black text */
+        color: #FFD700;  /* John Deere yellow */
     }
     </style>
     """,
     unsafe_allow_html=True,
 )
-
 def process_pdf(file):
     try:
         # Save uploaded file temporarily
