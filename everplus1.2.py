@@ -2,6 +2,41 @@ import pandas as pd
 import streamlit as st
 from tabula import read_pdf
 import os
+# Add custom CSS
+st.markdown(
+    """
+    <style>
+    /* Main background color */
+    .stApp {
+        background-color: #FFD700;  /* John Deere yellow */
+    }
+
+    /* Sidebar background color */
+    .css-1d391kg {
+        background-color: #367C2B;  /* John Deere green */
+    }
+
+    /* Button styling */
+    .stButton>button {
+        background-color: #367C2B;  /* John Deere green */
+        color: white;
+        border-radius: 5px;
+        border: none;
+    }
+
+    /* Header styling */
+    h1 {
+        color: #367C2B;  /* John Deere green */
+    }
+
+    /* Text color */
+    .stMarkdown {
+        color: #000000;  /* Black text */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 def process_pdf(file):
     try:
