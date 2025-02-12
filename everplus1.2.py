@@ -2,7 +2,8 @@ import pandas as pd
 import streamlit as st
 from tabula import read_pdf
 import os
-# Add custom CSS
+
+# Custom CSS for John Deere theme
 st.markdown(
     """
     <style>
@@ -38,6 +39,12 @@ st.markdown(
     /* Text color */
     .stMarkdown {
         color: #FFD700;  /* John Deere yellow */
+    }
+
+    /* Custom class for Everextension text */
+    .everextension-yellow {
+        color: #FFD700 !important;  /* John Deere yellow */
+        font-weight: bold;
     }
     </style>
     """,
