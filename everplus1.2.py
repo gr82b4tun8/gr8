@@ -66,8 +66,8 @@ st.markdown("""
             font-family: 'Arial', sans-serif;
         }
         .stButton > button {
-            background-color: #2f7a64;
-            color: white;
+            background-color: ##367C2B;
+            color: green;
             padding: 10px 20px;
             border-radius: 10px;
             font-size: 16px;
