@@ -26,7 +26,7 @@ st.markdown(
 
     /* Header styling */
     h1 {
-        color: #367C2B;  /* John Deere green */
+        color: #D5A32E;  /* John Deere green */
     }
 
     /* Text color */
