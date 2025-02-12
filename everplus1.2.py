@@ -19,7 +19,7 @@ st.markdown(
     /* Button styling */
     .stButton>button {
         background-color: #367C2B;  /* John Deere green */
-        color: white;
+        color: green;
         border-radius: 5px;
         border: none;
     }
