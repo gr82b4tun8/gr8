@@ -1,4 +1,4 @@
-import pandas as pd
+erimport pandas as pd
 import streamlit as st
 from tabula import read_pdf
 import os
@@ -53,8 +53,8 @@ def process_pdf(file):
         st.error(f"An error occurred: {e}")
 
 # Streamlit UI Setup
-st.title("PDF Table Extractor")
-st.write("Upload a PDF file to extract data from Table 3.")
+st.title("Everextension")
+st.write("Upload an Invoice")
 
 uploaded_file = st.file_uploader("Choose a PDF file", type=["pdf"])
 if uploaded_file is not None:
