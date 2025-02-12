@@ -8,7 +8,7 @@ st.markdown(
     <style>
     /* Main background color */
     .stApp {
-        background-color: ##367C2B;  /* John Deere green */
+        background-color: #367C2B;  /* John Deere green */
     }
 
     /* Sidebar background color */
