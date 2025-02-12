@@ -60,21 +60,3 @@ uploaded_file = st.file_uploader("Choose a PDF file", type=["pdf"])
 if uploaded_file is not None:
     process_pdf(uploaded_file)
 
-st.markdown("""
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-        }
-        .stButton > button {
-            background-color: ##367C2B;
-            color: green;
-            padding: 10px 20px;
-            border-radius: 10px;
-            font-size: 16px;
-        }
-        .stDataFrame {
-            border: 2px solid #2f7a64;
-            border-radius: 10px;
-        }
-    </style>
-""", unsafe_allow_html=True)
